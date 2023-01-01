@@ -49,7 +49,7 @@ content:
             - <mark>Mybatis</mark>, <mark>MySQL</mark>, <mark>Git</mark>
 
       - title: LG CNS
-        link: www.nhncloud.com/kr
+        link: https://www.lgcns.com/
         sub_title: Junior Backend Developer
         caption: 2021.01. ~ 2022.01
         description: | # this will include new lines to allow paragraphs
