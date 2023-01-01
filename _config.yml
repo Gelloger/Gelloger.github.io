@@ -6,7 +6,7 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: 박세환(Park Se Hwan)
+name: 박세환
 title: Junior Backend Developer
 email: gehwan96@gmail.com
 website: www.github.com/Gelloger
@@ -42,7 +42,7 @@ content:
         sub_title: Junior Backend Developer
         caption: 2022.02 ~ 현재
         description: | # this will include new lines to allow paragraphs
-          Email 서비스를 운영하고 개선해나가고 있습니다.
+          Email 서비스를 운영하고 개선해나가고 있습니다. <br><br>
           기술 스택
             - <mark>Spring Boot</mark>,<mark>nginx</mark>,<mark>Rabbitmq</mark>,<mark>Junit5</mark>, 
             - <mark>Jenkins</mark>, <mark>Sonarqube</mark>, <mark>Grafana</mark>
@@ -53,7 +53,7 @@ content:
         sub_title: Junior Backend Developer
         caption: 2021.01. ~ 2022.01
         description: | # this will include new lines to allow paragraphs
-          LG Uplus 서비스 Ucube 시스템의 단말기 판매 기능을 개발하였습니다.
+          LG Uplus 서비스 Ucube 시스템의 단말기 판매 기능을 개발하였습니다.<br><br>
           기술 스택
             - <mark>Spring Boot</mark>, <mark>JPA</mark>
   - title: Experience # Title for the section
@@ -91,10 +91,10 @@ content:
         caption: 2022.04. ~ 2022.07
         description: | # this will include new lines to allow paragraphs
           외부시스템 연결 상태를 확인하는 사내 오픈소스 `Condition Checker`의 Autoconfiguration 기능을 개발하였습니다.
-          Autoconfiguration 기능을 통해 (Mysql, Mongodb, Redis, Rabbitmq)에 대한 연결상태를 dependency 등록만으로도 확인이 가능해졌습니다.
+          Autoconfiguration 기능을 통해 (Mysql, Mongodb, Redis, Rabbitmq)에 대한 연결상태를 dependency 등록만으로도 상태 체크를 할 수 있도록 개선하였습니다.
       - title: LG Uplus Ucube System
         sub_title: 단말기 판매 기능 개발
-        caption: 2021.06. ~ 2023.01
+        caption: 2021.06. ~ 2022.01
         description: | # this will include new lines to allow paragraphs
           통신사 신규가입 인원을 대상으로 단말기를 판매하는 기능을 개발하였습니다. 메인 기능에 대한 개발을 진행했으며 Sequence Diagram 및 테스트 코드를 작성하였습니다.
           모든 업무가 끝난 뒤 중복되는 로직 및 가독성이 떨어지는 코드를 리팩토링하여 코드의 가독성을 높였습니다.`
