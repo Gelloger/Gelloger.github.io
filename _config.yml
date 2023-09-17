@@ -80,14 +80,14 @@ content:
           - PR Template 제안 및 적용
           - Grafana 사용간 메트릭 지표 추가
       - layout: left
-      - title: Migration multi-module gradle
+      - title: Migration Gradle & Configure multi-module
         sub_title: Gradle Migration
         caption: 2023.06 ~ 2023.07
         description: | # this will include new lines to allow paragraphs
           Email 서비스를 Maven에서 Gradle로 마이그레이션 하였습니다. 마이그레이션 과정에서 각 프로젝트들을 multi-module로 구성하였습니다.
           구성간 중복되는 로직을 최소화하고 각 프로젝트들의 의존성을 최소화하여 빌드 속도를 개선하였습니다.
       - layout: left
-        title: Optimizing Test
+        title: Optimize Test
         sub_title: 테스트 수행 최적화 작업
         caption: 2023.05 ~ 2023.06
         description: | # this will include new lines to allow paragraphs
@@ -109,7 +109,7 @@ content:
         caption: 2022.09 ~ 2022.10
         description: | # this will include new lines to allow paragraphs
           Dooray! Hook을 이용해 개인정보 삭제 및 증적자료를 남기는 업무를 자동화하였습니다. 자동화를 통해 개발자의 개발 생산성을 높일 수 있었습니다.
-      - title: Improving Nginx
+      - title: Improve Nginx
         sub_title: Nginx를 이용한 서비스 품질 개선
         caption: 2022.06. ~ 2022.08
         description: | # this will include new lines to allow paragraphs
@@ -118,7 +118,7 @@ content:
           - Reverse Proxy 설정을 통한 서비스의 보안성 개선
           - 일부 HTTP Method Blocking을 통한 어뷰징 방지
           - Nginx의 access_log 분리를 통한 로그 관리 개선
-      - title: Managing Email Service
+      - title: Manage Email Service
         sub_title: Email 서비스 관리
         caption: 2022.06. ~ 현재
         description: | # this will include new lines to allow paragraphs
