@@ -10,6 +10,8 @@ name: 박세환
 title: Junior Backend Developer
 email: gehwan96@gmail.com
 website: www.github.com/Gelloger
+blog: https://velog.io/@gehwan96
+blog2: https://gelog.tistory.com/
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -28,9 +30,9 @@ additional_links:
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
     안녕하세요. 백엔드 개발자로 일하고 있는 박세환입니다. 신기술과 최신 트렌드에 관심이 많고 새로운 기술을 배우는 것을 좋아합니다.
-    Open Source에 관심이 많고, 개발자들의 생산성을 높이는 것에 관심이 많습니다.
+    개인뿐만 아니라 팀 전체의 생산성을 높이는 것에 관심이 많습니다.
     
-    주 스킬은 <mark>Spring Boot</mark>이며, <mark>Java</mark>를 사용하고 있습니다.
+    주 스킬은 <mark>Spring Boot</mark>이며, <mark>Java8/11</mark>를 사용하고 있습니다.
 
 content:
   - title: Projects
@@ -42,9 +44,9 @@ content:
         sub_title: Junior Backend Developer
         caption: 2022.02 ~ 현재
         description: | # this will include new lines to allow paragraphs
-          Email 서비스를 운영하고 개선해나가고 있습니다. <br><br>
+          Email 서비스를 담당하여 운영하고 있습니다. <br><br>
           기술 스택
-            - <mark>Spring Boot</mark>,<mark>nginx</mark>,<mark>Rabbitmq</mark>,<mark>Junit5</mark>, 
+            - <mark>Spring Boot</mark>,<mark>Nginx</mark>,<mark>RabbitMQ</mark>,<mark>Junit5</mark>, <mark>Java8/11</mark>, <mark>Javascript</mark>
             - <mark>Jenkins</mark>, <mark>Sonarqube</mark>, <mark>Grafana</mark>
             - <mark>Mybatis</mark>, <mark>MySQL</mark>, <mark>Git</mark>
 
@@ -59,10 +61,41 @@ content:
   - title: Experience # Title for the section
     layout: list # Layout for the section
     content:
+      - title: Notification Hub
+        sub_title: 팀 내 신규 서비스 개발
+        caption: 2023.07 ~ 현재
+        description: | # this will include new lines to allow paragraphs
+          신규 서비스 개발 참여
+          - API 설계
+          - OpenAPI specification을 이용한 API 문서화
+      - title: 안정화 TF
+        sub_title: 팀 내 발생하는 장애원인 분석 및 개선
+        caption: 2023.08 ~ 2023.09
+        description: | # this will include new lines to allow paragraphs
+          팀 내에서 발생하는 장애 원인을 분석하고 개선하는 업무를 수행
+          - 알람 개선
+          - 전체 서비스 팀 내 공통 모듈 의존성 최신화
+          - logging 카테고리 세분화를 통한 logNCrash 사용 고도화
+          - sonarQube rule 적용
+          - PR Template 제안 및 적용
+          - Grafana 사용간 메트릭 지표 추가
       - layout: left
-        title: Test Using Junit5
+      - title: Migration multi-module gradle
+        sub_title: Gradle Migration
+        caption: 2023.06 ~ 2023.07
+        description: | # this will include new lines to allow paragraphs
+          Email 서비스를 Maven에서 Gradle로 마이그레이션 하였습니다. 마이그레이션 과정에서 각 프로젝트들을 multi-module로 구성하였습니다.
+          구성간 중복되는 로직을 최소화하고 각 프로젝트들의 의존성을 최소화하여 빌드 속도를 개선하였습니다.
+      - layout: left
+        title: Optimizing Test
+        sub_title: 테스트 수행 최적화 작업
+        caption: 2023.05 ~ 2023.06
+        description: | # this will include new lines to allow paragraphs
+          서비스내 테스트 코드를 단위 테스트/CI 테스트를 분리하여 로컬 환경에서의 테스트 수행 시간을 최적화하였습니다.
+          프로젝트 내 단위 테스트 코드의 수행 시간 지연을 분석해 수행 시간을 4분 54초에서 2분 07초로 개선하였습니다.
+      - title: Test Using Junit5
         sub_title: Migration & Refactoring
-        caption: 2022.10.25 ~ 현재
+        caption: 2022.10 ~ 2022.11
         description: | # this will include new lines to allow paragraphs
           서비스에 존재하는 모든 테스트 코드를 Junit5로 마이그레이션 하였습니다. 단순 마이그레이션으로는 junit5 기능을 효과적으로 사용할 수 없기 때문에 리팩토링을 진행하고 있습니다.
           장기적으로는 통합 테스트와 단위 테스트의 기준점을 만들어 팀 내 표준이 되는 것을 목표로 진행하고 있습니다.
@@ -71,12 +104,11 @@ content:
         caption: 2022.10 ~ 2022.11
         description: | # this will include new lines to allow paragraphs
           기존의 Jenkins는 동시에 빌드할 수 있는 숫자가 최대 3개였기에 빌드 속도가 느려지는 문제가 있었습니다. 해당 부분을 개선하고자 기존에 사용하던 Jenkins를 Docker를 이용한 Multi-Branch Pipeline으로 전환하였습니다.
-      - title: Test Automation
-        sub_title: 테이블 자동삭제 및 증적자료 저장 기능 개발
+      - title: Task Automation
+        sub_title: 업무 자동화
         caption: 2022.09 ~ 2022.10
         description: | # this will include new lines to allow paragraphs
-          기존에는 대량의 데이터를 저장하고 있었기 때문에 서비스의 성능에 영향을 미쳐 DBA분과 협업하여 수동 삭제로 진행하던 테이블 삭제를 자동으로 진행할 수 있도록 개발하였습니다.
-          또한, 테이블 삭제 시 증적자료를 저장할 수 있도록 개발하였습니다. 반복했던 작업을 자동화하여 담당자의 생산성을 높일 수 있었습니다.
+          Dooray! Hook을 이용해 개인정보 삭제 및 증적자료를 남기는 업무를 자동화하였습니다. 자동화를 통해 개발자의 개발 생산성을 높일 수 있었습니다.
       - title: Improving Nginx
         sub_title: Nginx를 이용한 서비스 품질 개선
         caption: 2022.06. ~ 2022.08
@@ -84,8 +116,16 @@ content:
           기존 nginx를 개선하여 다음의 문제들을 해결하였습니다.
           - nginx exporter 설정을 통한 prometheus 메트릭 수집기능 개선
           - Reverse Proxy 설정을 통한 서비스의 보안성 개선
-          - 미사용중인 HTTP METHOD Blocking을 통한 보안성 개선
-          - nginx의 access_log 분리를 통한 로그 관리 개선
+          - 일부 HTTP Method Blocking을 통한 어뷰징 방지
+          - Nginx의 access_log 분리를 통한 로그 관리 개선
+      - title: Managing Email services
+        sub_title: Email 서비스 관리
+        caption: 2022.06. ~ 현재
+        description: | # this will include new lines to allow paragraphs
+          팀에서 Email 서비스를 담당하여 운영 중입니다.
+          - 인프라 관리(ex) DR 구성)
+          - 고객 문의 대응 및 서비스 개선
+          - 서비스 모니터링
       - title: Condition Checker Autoconfiguration
         sub_title: Autoconfiguration을 이용한 starter 개발
         caption: 2022.04. ~ 2022.07
