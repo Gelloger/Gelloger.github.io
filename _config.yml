@@ -92,7 +92,7 @@ content:
         caption: 2023.05 ~ 2023.06
         description: | # this will include new lines to allow paragraphs
           서비스내 테스트 코드를 단위 테스트/CI 테스트를 분리하여 로컬 환경에서의 테스트 수행 시간을 최적화하였습니다.
-          프로젝트 내 단위 테스트 코드의 수행 시간 지연을 분석해 수행 시간을 4분 54초에서 2분 07초로 개선하였습니다.
+          프로젝트 내 단위 테스트 코드의 수행 시간 지연을 분석해 수행 시간을 `4분 54초에서 2분 07초로 개선`하였습니다.
       - title: Test Using Junit5
         sub_title: Migration & Refactoring
         caption: 2022.10 ~ 2022.11
@@ -118,7 +118,7 @@ content:
           - Reverse Proxy 설정을 통한 서비스의 보안성 개선
           - 일부 HTTP Method Blocking을 통한 어뷰징 방지
           - Nginx의 access_log 분리를 통한 로그 관리 개선
-      - title: Managing Email services
+      - title: Managing Email Service
         sub_title: Email 서비스 관리
         caption: 2022.06. ~ 현재
         description: | # this will include new lines to allow paragraphs
@@ -130,7 +130,7 @@ content:
         sub_title: Autoconfiguration을 이용한 starter 개발
         caption: 2022.04. ~ 2022.07
         description: | # this will include new lines to allow paragraphs
-          외부시스템 연결 상태를 확인하는 사내 오픈소스 `Condition Checker`의 Autoconfiguration 기능을 개발하였습니다.
+          외부시스템 연결 상태를 확인하는 사내 오픈소스 Condition Checker의 Autoconfiguration 기능을 개발하였습니다.
           Autoconfiguration 기능을 통해 (Mysql, Mongodb, Redis, Rabbitmq)에 대한 연결상태를 dependency 등록만으로도 상태 체크를 할 수 있도록 개선하였습니다.
       - title: LG Uplus Ucube System
         sub_title: 단말기 판매 기능 개발
