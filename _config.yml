@@ -61,11 +61,27 @@ content:
   - title: Experience # Title for the section
     layout: list # Layout for the section
     content:
-      - title: Notification Hub
-        sub_title: 팀 내 신규 서비스 개발
-        caption: 2023.07 ~ 현재
+      - title: Improving sending email structure
+        sub_title: Email 발송 구조 개선
+        caption: 2023.12 ~ 현재
         description: | # this will include new lines to allow paragraphs
-          신규 서비스 개발 참여
+          Email 발송 구조 개선 작업 수행 
+          - SMTP Callback 구조 개선 (mq 도입)
+          - 발송 로직 리팩토링 수행
+      - title: Improving validation for Gmail sender policy changes
+        sub_title: Gmail 발신자 정책 변경 대응
+        caption: 2023.11 ~ 2023.12
+        description: | # this will include new lines to allow paragraphs
+          2024년 2월 Gmail 발신자 정책 변경에 따른 대응 작업을 수행
+          - DMARC 검증 시나리오 추가
+          - API 유효성 로직 추가
+          - 발신자 도메인 검사로직 개선
+          - PTR 레코드 설정 확인
+      - title: Designing the Notification Hub API
+        sub_title: 팀 내 신규 서비스 API 설계
+        caption: 2023.07 ~ 2023.10
+        description: | # this will include new lines to allow paragraphs
+          신규 서비스 API 설계 참여
           - API 설계
           - OpenAPI specification을 이용한 API 문서화
       - title: 안정화 TF
@@ -80,40 +96,41 @@ content:
           - PR Template 제안 및 적용
           - Grafana 사용간 메트릭 지표 추가
       - layout: left
-      - title: Migration Gradle & Configure multi-module
+      - title: Configure Multi-Module
         sub_title: Gradle Migration
         caption: 2023.06 ~ 2023.07
         description: | # this will include new lines to allow paragraphs
-          Email 서비스를 Maven에서 Gradle로 마이그레이션 하였습니다. 마이그레이션 과정에서 각 프로젝트들을 multi-module로 구성하였습니다.
-          구성간 중복되는 로직을 최소화하고 각 프로젝트들의 의존성을 최소화하여 빌드 속도를 개선하였습니다.
+          - Email 프로젝트를 멀티 모듈로 구성
+          - 클래스를 공통화하여 중복되는 코드를 제거
+          - 의존성 계층을 구분하여 의존성을 최소화
+          - Maven에서 Gradle로 마이그레이션 진행 
+          - 빌드 및 테스트 속도 개선 (CI 수행시간 20% 감소)
       - layout: left
         title: Optimize Test
         sub_title: 테스트 수행 최적화 작업
-        caption: 2023.05 ~ 2023.06
+        caption: 2022.10 ~ 2022.11, 2023.05 ~ 2023.06
         description: | # this will include new lines to allow paragraphs
-          서비스내 테스트 코드를 단위 테스트/CI 테스트를 분리하여 로컬 환경에서의 테스트 수행 시간을 최적화하였습니다.
-          프로젝트 내 단위 테스트 코드의 수행 시간 지연을 분석해 수행 시간을 `4분 54초에서 2분 07초로 개선`하였습니다.
-      - title: Test Using Junit5
-        sub_title: Migration & Refactoring
-        caption: 2022.10 ~ 2022.11
-        description: | # this will include new lines to allow paragraphs
-          서비스에 존재하는 모든 테스트 코드를 Junit5로 마이그레이션 하였습니다. 단순 마이그레이션으로는 junit5 기능을 효과적으로 사용할 수 없기 때문에 리팩토링을 진행하고 있습니다.
-          장기적으로는 통합 테스트와 단위 테스트의 기준점을 만들어 팀 내 표준이 되는 것을 목표로 진행하고 있습니다.
+          - 서비스에 존재하는 모든 테스트 코드를 Junit5로 마이그레이션 진행
+          - junit5 기능을 활용한 테스트 리팩토링 진행
+          - 단위 테스트/CI 테스트를 분리해 환경간 테스트 수행 시간 최적화
+          - 테스트 코드 수행 시간 지연을 분석해 수행 시간 개선 (`4분 54초에서 2분 07초로 개선`)
       - title: Convert Jenkins Build
         sub_title: Using MultiBranch Pipeline(Docker)
         caption: 2022.10 ~ 2022.11
         description: | # this will include new lines to allow paragraphs
-          기존의 Jenkins는 동시에 빌드할 수 있는 숫자가 최대 3개였기에 빌드 속도가 느려지는 문제가 있었습니다. 해당 부분을 개선하고자 기존에 사용하던 Jenkins를 Docker를 이용한 Multi-Branch Pipeline으로 전환하였습니다.
+          - Jenkins CI를 Docker CI로 전환
+          - Pipeline -> Multi-Branch Pipeline 전환
       - title: Task Automation
         sub_title: 업무 자동화
         caption: 2022.09 ~ 2022.10
         description: | # this will include new lines to allow paragraphs
-          Dooray! Hook을 이용해 개인정보 삭제 및 증적자료를 남기는 업무를 자동화하였습니다. 자동화를 통해 개발자의 개발 생산성을 높일 수 있었습니다.
+          - Dooray! Hook API를 활용한 증적자료를 남기는 업무 자동화
+          - 개발자의 개발 생산성 증가
       - title: Improve Nginx
         sub_title: Nginx를 이용한 서비스 품질 개선
         caption: 2022.06. ~ 2022.08
         description: | # this will include new lines to allow paragraphs
-          기존 nginx를 개선하여 다음의 문제들을 해결하였습니다.
+          기존 nginx를 개선하여 다음과 같은 문제들을 해결하였습니다.
           - nginx exporter 설정을 통한 prometheus 메트릭 수집기능 개선
           - Reverse Proxy 설정을 통한 서비스의 보안성 개선
           - 일부 HTTP Method Blocking을 통한 어뷰징 방지
@@ -122,22 +139,27 @@ content:
         sub_title: Email 서비스 관리
         caption: 2022.06. ~ 현재
         description: | # this will include new lines to allow paragraphs
-          팀에서 Email 서비스를 담당하여 운영 중입니다.
-          - 인프라 관리(ex) DR 구성)
+          팀에서 Email 서비스를 담당하여 운영 중입니다. 다음과 같은 업무를 수행하고 있습니다.
+          - 인프라 관리(ex) 서비스 이중화 구성, 모니터링 시스템 연동 등)
           - 고객 문의 대응 및 서비스 개선
-          - 서비스 모니터링
-      - title: Condition Checker Autoconfiguration
-        sub_title: Autoconfiguration을 이용한 starter 개발
+          - 운영용 API 개발 및 기능 추가
+          - 신규 기능 기획 및 개발
+      - title: Developed an in-house open-source starter library
+        sub_title: Autoconfiguration을 이용한 사내 오픈소스 starter 개발
         caption: 2022.04. ~ 2022.07
         description: | # this will include new lines to allow paragraphs
-          외부시스템 연결 상태를 확인하는 사내 오픈소스 Condition Checker의 Autoconfiguration 기능을 개발하였습니다.
-          Autoconfiguration 기능을 통해 (Mysql, Mongodb, Redis, Rabbitmq)에 대한 연결상태를 dependency 등록만으로도 상태 체크를 할 수 있도록 개선하였습니다.
+          - starter 개발 이전 라이브러리 추가 개선 작업 수행
+          - Autoconfiguration을 이용한 사내 오픈소스 starter library 개발
+          - 기존 라이브러리를 starter로 변경하여 사용성 개선
       - title: LG Uplus Ucube System
         sub_title: 단말기 판매 기능 개발
         caption: 2021.06. ~ 2022.01
         description: | # this will include new lines to allow paragraphs
-          통신사 신규가입 인원을 대상으로 단말기를 판매하는 기능을 개발하였습니다. 메인 기능에 대한 개발을 진행했으며 Sequence Diagram 및 테스트 코드를 작성하였습니다.
-          모든 업무가 끝난 뒤 중복되는 로직 및 가독성이 떨어지는 코드를 리팩토링하여 코드의 가독성을 높였습니다.`
+          - 통신사 신규가입 인원을 대상으로 단말기를 판매 기능 개발
+          - Sequence Diagram 및 API 설계 진행
+          - Spring Boot, Java, JPA 및 QueryDSL 활용 
+          
+
 ## Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
