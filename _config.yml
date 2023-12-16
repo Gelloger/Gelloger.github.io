@@ -67,6 +67,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Email 발송 구조 개선 작업 수행 
           - SMTP Callback 구조 개선 (mq 도입)
+          - Email 발송 시나리오 개선
           - 발송 로직 리팩토링 수행
       - title: Improving validation for Gmail sender policy changes
         sub_title: Gmail 발신자 정책 변경 대응
@@ -74,8 +75,8 @@ content:
         description: | # this will include new lines to allow paragraphs
           2024년 2월 Gmail 발신자 정책 변경에 따른 대응 작업을 수행
           - DMARC 검증 시나리오 추가
+          - TXT 레코드 미인증시 발송 제한
           - API 유효성 로직 추가
-          - 발신자 도메인 검사로직 개선
           - PTR 레코드 설정 확인
       - title: Designing the Notification Hub API
         sub_title: 팀 내 신규 서비스 API 설계
@@ -155,7 +156,7 @@ content:
         sub_title: 단말기 판매 기능 개발
         caption: 2021.06. ~ 2022.01
         description: | # this will include new lines to allow paragraphs
-          - 통신사 신규가입 인원을 대상으로 단말기를 판매 기능 개발
+          - 통신사 신규가입 인원을 대상으로 모바일 단말기 판매 기능 개발
           - Sequence Diagram 및 API 설계 진행
           - Spring Boot, Java, JPA 및 QueryDSL 활용 
           
