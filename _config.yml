@@ -83,7 +83,7 @@ content:
         caption: 2023.07 ~ 2023.10
         description: | # this will include new lines to allow paragraphs
           신규 서비스 API 설계 참여
-          - API 설계
+          - API 설계 진행 (상세 설정)
           - OpenAPI specification을 이용한 API 문서화
       - title: 안정화 TF
         sub_title: 팀 내 발생하는 장애원인 분석 및 개선
@@ -99,7 +99,7 @@ content:
       - layout: left
       - title: Configure Multi-Module
         sub_title: Gradle Migration
-        caption: 2023.06 ~ 2023.07
+        caption: 2023.06 ~ 2023.07 (구성), 현재 모듈 분리작업 꾸준히 진행 중
         description: | # this will include new lines to allow paragraphs
           - Email 프로젝트를 멀티 모듈로 구성
           - 클래스를 공통화하여 중복되는 코드를 제거
