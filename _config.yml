@@ -33,14 +33,14 @@ about_content: | # this will include new lines to allow paragraphs
     서비스 내 레거시 코드를 리팩토링하여 가독성 있는 코드를 작성하는 것과 팀 전체의 생산성을 높이는 것에 관심이 많습니다.
   
     기술 스택 (주/부)
-      - 프레임워크: <mark>Spring Boot 2/3</mark>
-      - 언어: <mark>Java 8/11/21</mark>, <mark>Kotlin</mark>
-      - 테스트: <mark>Junit4/5</mark>
-      - 미들웨어: <mark>RabbitMQ</mark>
-      - 웹서버: <mark>Nginx</mark>
-      - DevOps: <mark>Jenkins</mark>, <mark>Sonarqube</mark>, <mark>Grafana</mark>
-      - DB(Hibernate): <mark>MySQL</mark>,<mark>Mybatis</mark>, <mark>JPA</mark>, <mark>QueryDSL</mark>
-      - 기타: <mark>OpenAPI Specification3</mark>, <mark>Clean Architecture</mark>, <mark>Github</mark>
+      - 프레임워크 - <mark>Spring Boot 2/3</mark>
+      - 언어 - <mark>Java 8/11/21</mark>, <mark>Kotlin</mark>
+      - 테스트 - <mark>Junit4/5</mark>
+      - 미들웨어 - <mark>RabbitMQ</mark>
+      - 웹서버 - <mark>Nginx</mark>
+      - DevOps - <mark>Jenkins</mark>, <mark>Sonarqube</mark>, <mark>Grafana</mark>
+      - DB(Hibernate) - <mark>MySQL</mark>,<mark>Mybatis</mark>, <mark>JPA</mark>, <mark>QueryDSL</mark>
+      - 기타 - <mark>OpenAPI Specification3</mark>, <mark>Clean Architecture</mark>, <mark>Github</mark>
 
 content:
   - title: Projects
