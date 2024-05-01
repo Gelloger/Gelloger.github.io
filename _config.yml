@@ -32,12 +32,15 @@ about_content: | # this will include new lines to allow paragraphs
     안녕하세요. 백엔드 개발자로 일하고 있는 박세환입니다. 신기술과 최신 트렌드에 관심이 많고 공유하는 것을 좋아합니다.<br>
     서비스 내 레거시 코드를 리팩토링하여 가독성 있는 코드를 작성하는 것과 팀 전체의 생산성을 높이는 것에 관심이 많습니다.
   
-    기술 스택
-      - <mark>Spring Boot 2/3</mark>,<mark>Nginx</mark>,<mark>RabbitMQ</mark>
-      - <mark>Java 8/11/21</mark>, <mark>Kotlin</mark>, <mark>Junit4/5</mark>
-      - <mark>Jenkins</mark>, <mark>Sonarqube</mark>, <mark>Grafana</mark>
-      - <mark>Mybatis</mark>, <mark>MySQL</mark>, <mark>JPA</mark>
-      - <mark>OpenAPI Specification3</mark>, <mark>Git</mark>
+    기술 스택 (주/부)
+      - 프레임워크: <mark>Spring Boot 2/3</mark>
+      - 언어: <mark>Java 8/11/21</mark>, <mark>Kotlin</mark>
+      - 테스트: <mark>Junit4/5</mark>
+      - 미들웨어: <mark>RabbitMQ</mark>
+      - 웹서버: <mark>Nginx</mark>
+      - DevOps: <mark>Jenkins</mark>, <mark>Sonarqube</mark>, <mark>Grafana</mark>
+      - DB(Hibernate): <mark>MySQL</mark>,<mark>Mybatis</mark>, <mark>JPA</mark>, <mark>QueryDSL</mark>
+      - 기타: <mark>OpenAPI Specification3</mark>, <mark>Clean Architecture</mark>, <mark>Github</mark>
 
 content:
   - title: Projects
@@ -49,10 +52,10 @@ content:
         sub_title: Junior Backend Developer
         caption: 2022.02 ~ 현재
         description: | # this will include new lines to allow paragraphs
-          NHN CLOUD Email은 현재 쿠팡,무신사,배달의민족과 같은 대형 고객사가 사용하고 있는 Email 서비스입니다. <br>
+          NHN CLOUD Email은 현재 쿠팡,무신사,배달의민족과 같은 대형 고객사가 사용하고 있는 Email 서비스입니다. <br><br>
           월 평균 2억건의 발송을 처리하고 있는 Email 서비스를 담당하여 운영하고 있습니다. 
-          
-          주요 업무
+          <br>
+          <string>주요 업무<strong>
           - 고객 요구사항 분석 및 신규 기능 개발
           - 시스템 구조 개선 작업 수행(Legacy Code Refactoring, Re-architecture 등)
           - 표준화 수행(RFC 적용): RFC 7208, RFC 6376, RFC 7489, RFC 5322
@@ -137,16 +140,14 @@ content:
           - Jenkins CI를 Docker CI로 전환
           - Pipeline -> Multi-Branch Pipeline 전환
 
-      - title: Task Automation
-        sub_title: 업무 자동화
-        caption: 2022.09 ~ 2022.10
+      - title: 업무 자동화
+        sub_title: 2022.09 ~ 2022.10
         description: | # this will include new lines to allow paragraphs
           - Dooray! Hook API를 활용한 증적자료를 남기는 업무 자동화
           - 개발자의 개발 생산성 증가
 
-      - title: Improve Nginx
-        sub_title: Nginx를 이용한 서비스 품질 개선
-        caption: 2022.06. ~ 2022.08
+      - title: Nginx를 이용한 서비스 개선
+        sub_title: 2022.06. ~ 2022.08
         description: | # this will include new lines to allow paragraphs
           기존 nginx를 개선하여 다음과 같은 문제들을 해결하였습니다.
           - Reverse Proxy 설정을 통한 서비스 보안성 개선
