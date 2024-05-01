@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: 박세환
-title: Junior Backend Developer
+title: Backend Developer
 email: gehwan96@gmail.com
 website: www.github.com/Gelloger
 blog: https://velog.io/@gehwan96
@@ -49,7 +49,7 @@ content:
       - layout: left
         title: NHN CLOUD
         link: www.nhncloud.com/kr
-        sub_title: Junior Backend Developer
+        sub_title: Backend Developer
         caption: 2022.02 ~ 현재
         description: | # this will include new lines to allow paragraphs
           NHN CLOUD Email은 현재 쿠팡,무신사,배달의민족과 같은 대형 고객사가 사용하고 있는 Email 서비스입니다. <br><br>
@@ -64,7 +64,7 @@ content:
 
       - title: LG CNS
         link: https://www.lgcns.com/
-        sub_title: Junior Backend Developer
+        sub_title: Backend Developer
         caption: 2021.01. ~ 2022.01
         description: | # this will include new lines to allow paragraphs
           LG Uplus 서비스 Ucube 시스템의 단말기 판매 기능을 담당하여 개발하였습니다. <br>
