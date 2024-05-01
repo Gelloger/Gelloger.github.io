@@ -55,7 +55,7 @@ content:
           NHN CLOUD Email은 현재 쿠팡,무신사,배달의민족과 같은 대형 고객사가 사용하고 있는 Email 서비스입니다. <br><br>
           월 평균 2억건의 발송을 처리하고 있는 Email 서비스를 2022년 5월부터 담당하여 운영하고 있습니다. 
           <br>
-          <string>주요 업무</strong>
+          <strong>주요 업무<strong>
           - 고객 요구사항 분석 및 신규 기능 개발
           - 시스템 구조 개선 작업 수행(Legacy Code Refactoring, Re-architecture 등)
           - 표준화 수행(RFC 적용): RFC 7208, RFC 6376, RFC 7489, RFC 5322
@@ -70,7 +70,7 @@ content:
           LG Uplus 서비스 Ucube 시스템의 단말기 판매 기능을 담당하여 개발하였습니다. <br>
           기존 모놀리스 시스템을 마이크로 서비스로 전환하는 작업을 수행하였습니다. <br>
           
-          <string>주요 업무</strong>
+          <strong>주요 업무<strong>
           - 사내 시스템 DA#을 이용한 ERD 설계
           - Sequence Diagram 및 API 설계 진행
           - Spring Boot, Java, JPA 및 QueryDSL를 활용한 서비스 개발
