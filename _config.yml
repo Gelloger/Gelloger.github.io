@@ -29,10 +29,11 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-    안녕하세요. 백엔드 개발자로 일하고 있는 박세환입니다. 신기술과 최신 트렌드에 관심이 많고 공유하는 것을 좋아합니다.<br>
+    안녕하세요. 백엔드 개발자로 일하고 있는 박세환입니다. 신기술과 최신 트렌드에 관심이 많고 공유하는 것을 좋아합니다. <br>
     서비스 내 레거시 코드를 리팩토링하여 가독성 있는 코드를 작성하는 것과 팀 전체의 생산성을 높이는 것에 관심이 많습니다.
+    <br>
   
-    기술 스택 (주/부)
+    <strong>기술 스택<strong>
       - 프레임워크 - <mark>Spring Boot 2/3</mark>
       - 언어 - <mark>Java 8/11/21</mark>, <mark>Kotlin</mark>
       - 테스트 - <mark>Junit4/5</mark>
@@ -43,7 +44,7 @@ about_content: | # this will include new lines to allow paragraphs
       - 기타 - <mark>OpenAPI Specification3</mark>, <mark>Clean Architecture</mark>, <mark>Github</mark>
 
 content:
-  - title: Projects
+  - title: Company
     layout: list
     content:
       - layout: left
@@ -52,7 +53,7 @@ content:
         sub_title: Backend Developer
         caption: 2022.02 ~ 현재
         description: | # this will include new lines to allow paragraphs
-          NHN CLOUD Email은 현재 쿠팡,무신사,배달의민족과 같은 대형 고객사가 사용하고 있는 Email 서비스입니다. <br><br>
+          NHN CLOUD Email은 현재 쿠팡,무신사,배달의민족과 같은 대형 고객사가 사용하고 있는 Email 서비스입니다. <br>
           월 평균 2억건의 발송을 처리하고 있는 Email 서비스를 2022년 5월부터 담당하여 운영하고 있습니다. 
           <br>
           
@@ -114,14 +115,11 @@ content:
         sub_title: 2023.08 ~ 2023.09
         description: | # this will include new lines to allow paragraphs
           팀 내에서 발생하는 장애 원인을 분석하고 개선하는 업무를 수행
-          - 모니터링 알람 개선
-          - 전체 서비스 팀 내 공통 모듈 의존성 최신화
-          - logging 카테고리 세분화를 통한 logNCrash 사용 고도화
-          - sonarQube rule 적용
-          - PR Template 제안 및 적용
-          - Grafana 사용간 메트릭 지표 추가
+          - 와치독 및 Grafana 모니터링 알람 개선
+          - MDC 및 logback을 활용한 로깅 고도화
+          - SonarQube Rule 적용
+          - Grafana 대시보드 개선
 
-      - layout: left
       - title: Email 내부 개선
         sub_title: 2023.01 ~ 2023.07
         description: | # this will include new lines to allow paragraphs
@@ -131,8 +129,7 @@ content:
           - Maven에서 Gradle로 마이그레이션 진행 및 멀티 모듈로 Email 프로젝트 재구성
           - 빌드 및 테스트 속도 개선 (CI 수행시간 20% 감소)
 
-      - layout: left
-        title: 테스트 수행 최적화 작업
+      - title: 테스트 수행 최적화 작업
         sub_title: 2022.10 ~ 2022.11, 2023.05 ~ 2023.06
         description: | # this will include new lines to allow paragraphs
           - 서비스에 존재하는 모든 테스트 코드를 Junit5로 마이그레이션 진행
