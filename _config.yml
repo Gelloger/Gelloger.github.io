@@ -53,9 +53,9 @@ content:
         caption: 2022.02 ~ 현재
         description: | # this will include new lines to allow paragraphs
           NHN CLOUD Email은 현재 쿠팡,무신사,배달의민족과 같은 대형 고객사가 사용하고 있는 Email 서비스입니다. <br><br>
-          월 평균 2억건의 발송을 처리하고 있는 Email 서비스를 담당하여 운영하고 있습니다. 
+          월 평균 2억건의 발송을 처리하고 있는 Email 서비스를 2022년 5월부터 담당하여 운영하고 있습니다. 
           <br>
-          <string>주요 업무<strong>
+          <string>주요 업무</strong>
           - 고객 요구사항 분석 및 신규 기능 개발
           - 시스템 구조 개선 작업 수행(Legacy Code Refactoring, Re-architecture 등)
           - 표준화 수행(RFC 적용): RFC 7208, RFC 6376, RFC 7489, RFC 5322
@@ -65,10 +65,12 @@ content:
       - title: LG CNS
         link: https://www.lgcns.com/
         sub_title: Backend Developer
-        caption: 2021.01. ~ 2022.01
+        caption: 2021.01. ~ 2022.02
         description: | # this will include new lines to allow paragraphs
           LG Uplus 서비스 Ucube 시스템의 단말기 판매 기능을 담당하여 개발하였습니다. <br>
-          기존 모놀리스 시스템을 마이크로 서비스로 전환하는 경험을 했으며 아래와 같은 업무를 수행하였습니다.
+          기존 모놀리스 시스템을 마이크로 서비스로 전환하는 작업을 수행하였습니다. <br>
+          
+          <string>주요 업무</strong>
           - 사내 시스템 DA#을 이용한 ERD 설계
           - Sequence Diagram 및 API 설계 진행
           - Spring Boot, Java, JPA 및 QueryDSL를 활용한 서비스 개발
@@ -107,8 +109,7 @@ content:
           - OpenAPI specification3을 이용한 API 문서화 진행
 
       - title: 안정화 TF
-        sub_title: 팀 내 발생하는 장애원인 분석 및 개선
-        caption: 2023.08 ~ 2023.09
+        sub_title: 2023.08 ~ 2023.09
         description: | # this will include new lines to allow paragraphs
           팀 내에서 발생하는 장애 원인을 분석하고 개선하는 업무를 수행
           - 모니터링 알람 개선
@@ -163,6 +164,12 @@ content:
           - Autoconfiguration을 이용한 사내 오픈소스 starter library 개발
           - 기존 라이브러리를 starter로 변경하여 사용성 개선
 
+      - title: Ucube 시스템 개발
+        sub_title: 2021.01. ~ 2022.02
+        description: | # this will include new lines to allow paragraphs
+          - 사내 시스템 DA#을 이용한 ERD 설계
+          - Sequence Diagram 및 API 설계 진행
+          - Spring Boot, Java, JPA 및 QueryDSL를 활용한 서비스 개발
 ## Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
