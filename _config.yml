@@ -29,19 +29,20 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-    안녕하세요. 백엔드 개발자로 일하고 있는 박세환입니다. 신기술과 최신 트렌드에 관심이 많고 공유하는 것을 좋아합니다. <br>
-    서비스 내 레거시 코드를 리팩토링하여 가독성 있는 코드를 작성하는 것과 팀 전체의 생산성을 높이는 것에 관심이 많습니다.
-    <br>
-  
+    안녕하세요. 백엔드 개발자로 일하고 있는 박세환입니다.<br>
+    신기술과 최신 트렌드에 관심이 많으며, 이를 팀원들과 공유하고 함께 성장하는 것을 좋아합니다.<br>
+    서비스 내 레거시 코드를 리팩토링하여 가독성 높은 코드를 작성하는 것과 팀 전체의 생산성을 높이는 것에 관심이 많습니다.<br>
+    또한, 사용자 중심의 서비스를 설계하고 개발하여 더 나은 사용자 경험(UX)을 제공하는 것에 큰 열정을 가지고 있습니다.
+    
     <strong>기술 스택<strong>
       - 프레임워크 - <mark>Spring Boot 2/3</mark>
       - 언어 - <mark>Java 8/11/21</mark>, <mark>Kotlin</mark>
-      - 테스트 - <mark>Junit4/5</mark>
+      - 테스트 - <mark>Junit 4/5</mark>
       - 미들웨어 - <mark>RabbitMQ</mark>
       - 웹서버 - <mark>Nginx</mark>
-      - DevOps - <mark>Jenkins</mark>, <mark>Sonarqube</mark>, <mark>Grafana</mark>
-      - DB(Hibernate) - <mark>MySQL</mark>,<mark>Mybatis</mark>, <mark>JPA</mark>, <mark>QueryDSL</mark>
-      - 기타 - <mark>OpenAPI Specification3</mark>, <mark>Clean Architecture</mark>, <mark>Github</mark>
+      - DevOps - <mark>Jenkins</mark>, <mark>SonarQube</mark>, <mark>Grafana</mark>
+      - DB(Hibernate) - <mark>MySQL</mark>, <mark>MongoDB</mark>, <mark>MyBatis</mark>, <mark>JPA</mark>, <mark>QueryDSL</mark>
+      - 기타 - <mark>OpenAPI Specification3</mark>, <mark>Clean Architecture</mark>, <mark>GitHub</mark>
 
 content:
   - title: Company
@@ -53,16 +54,21 @@ content:
         sub_title: Backend Developer
         caption: 2022.02 ~ 현재
         description: | # this will include new lines to allow paragraphs
-          NHN CLOUD Email은 현재 쿠팡,무신사,배달의민족과 같은 대형 고객사가 사용하고 있는 Email 서비스입니다. <br>
-          월 평균 2억건의 발송을 처리하고 있는 Email 서비스를 2022년 5월부터 담당하여 운영하고 있습니다. 
+          NHN CLOUD Email은 현재 쿠팡, 무신사, 배달의민족과 같은 대형 고객사가 사용하고 있는 Email 서비스입니다. <br>
+          월 평균 2~3억건의 발송을 처리하고 있는 Email 서비스를 2022년 5월부터 담당하여 운영하고 있습니다.
+          2024년부터는 **신규 서비스(Notification Hub, 친구톡 Upgrade) 개발**에 참여하여 설계 및 개발을 진행 중입니다.
           <br>
           
           <strong>주요 업무<strong>
-          - 고객 요구사항 분석 및 신규 기능 개발
+          - API 설계 및 개발
           - 시스템 구조 개선 작업 수행(Legacy Code Refactoring, Re-architecture 등)
           - 표준화 수행(RFC 적용): RFC 7208, RFC 6376, RFC 7489, RFC 5322
           - 발송 성능 개선
           - 서비스 운영 및 관리, 모니터링
+          <br>
+          <strong>신규 서비스 개발<strong>
+          - Notification Hub (2024.02 ~ 2024.12): Email,SMS,RCS,KTB,Push 통합 서비스 개발
+          - 친구톡 Upgrade (2025.01 ~): 카카오 친구톡 Upgrade CBT 개발
 
       - title: LG CNS
         link: https://www.lgcns.com/
@@ -74,101 +80,72 @@ content:
           <br>
           
           <strong>주요 업무<strong>
-          - 사내 시스템 DA#을 이용한 ERD 설계
-          - Sequence Diagram 및 API 설계 진행
-          - Spring Boot, Java, JPA 및 QueryDSL를 활용한 서비스 개발
+          - 모바일 단말 판매 기능 개발
 
   - title: Experience # Title for the section
     layout: list # Layout for the section
     content:
-      - title: Notification Hub 신규 개발
-        sub_title: 2024.02 ~ 현재
+      - title: Notification Hub 신규 서비스 개발
+        sub_title: 2023.07 ~ 2023.10, 2024.02 ~ 2024.12
         description: | # this will include new lines to allow paragraphs
-          신규 시스템 개발 참여
-          - 첨부파일 및 상세설정 기능 개발
-          - Clean architecture 및 DDD 기반의 개발 진행
+          - 첨부파일, 상세설정 API 설계 및 개발
+          - Email 발송 API 개발 
+          - 예외 응답 다국어 처리 및 내부 예외 처리 설계 및 개발
+          - 미터링 개발
+          - 사용 기술: Clean architecture, DDD, OpenAPI specification3, Kotlin, RabbitMQ, MongoDB, MySQL, Github 
 
-      - title: Email 발송 구조 개선
-        sub_title: 2023.11 ~ 현재
+      - title: Email 발송 로직 리팩토링
+        sub_title: 2023.11 ~ 2024.01
         description: | # this will include new lines to allow paragraphs
           Email 발송 구조 개선 작업 수행 
-          - SMTP Callback 구조 개선 (mq 도입)
           - 기존 발송 관련 레거시 코드 리팩토링 수행
           - 발송 시나리오 개선
 
       - title: Gmail 발신자 정책 변경 대응
-        sub_title: 2023.11 ~ 2023.02
+        sub_title: 2023.11 ~ 2024.02
         description: | # this will include new lines to allow paragraphs
           2024년 2월 Gmail 발신자 정책 변경에 따른 대응 작업을 수행
           - DMARC 검증 시나리오 추가 (RFC 7489)
           - API 유효성 로직 개선 (RFC 7208)
           - 내부 시스템 점검 및 정책 변경 
 
-      - title: Notification Hub API 설계
-        sub_title: 2023.07 ~ 2023.10
-        description: | # this will include new lines to allow paragraphs
-          신규 서비스 API 설계 참여
-          - API 설계 진행 (상세 설정)
-          - OpenAPI specification3을 이용한 API 문서화 진행
-
       - title: 안정화 TF
         sub_title: 2023.08 ~ 2023.09
-        description: | # this will include new lines to allow paragraphs
+        description: | 
           팀 내에서 발생하는 장애 원인을 분석하고 개선하는 업무를 수행
-          - 와치독 및 Grafana 모니터링 알람 개선
+          - Watchdog 및 Grafana 모니터링 알람 개선
           - MDC 및 logback을 활용한 로깅 고도화
-          - SonarQube Rule 적용
-          - Grafana 대시보드 개선
+          - SonarQube 도입
+          - Grafana 대시보드 시각화를 통한 운영 업무 개선 
 
-      - title: Email 내부 개선
-        sub_title: 2023.01 ~ 2023.07
-        description: | # this will include new lines to allow paragraphs
-          - 인프라 이중화 작업
-          - File Crafter 연동 및 SQL cursor 기반으로 변경 (성능 개선)
-          - 내부 발송 로직 분석 및 성능 개선 (발송량 20% 증가)
-          - Maven에서 Gradle로 마이그레이션 진행 및 멀티 모듈로 Email 프로젝트 재구성
-          - 빌드 및 테스트 속도 개선 (CI 수행시간 20% 감소)
+      - title: Email 서비스 내부 개선
+        sub_title: 2022.04 ~ 2023.07
+        description: |
+          - 인프라 이중화 작업을 수행하여 `서비스 안정성 확보`
+          - 운영용 API를 개발하여 `서비스 장애 대응 시간 단축`
+          - 멀티 모듈 프로젝트로 재구성 및 공통화 작업을 진행해 `코드 재사용성 강화`
+          - Nginx Reverse Proxy 및 HTTP Method Blocking 설정으로 `API 무작위 공격 대응`
+          - 커서 기반 조회 도입으로 `조회 API slow query 개선`
+          - 내부 발송 로직을 분석 및 최적화하여 `발송량 20% 증가 및 최종 응답 soft bounce 발생 90% 감소`
+          - 테스트 코드 수행 시간 지연 원인을 분석 및 개선하여 `4분 54초 → 2분 07초로 단축`
+          - CI 빌드 속도를 최적화하여 `수행 시간 20% 단축`
+          - 서비스 전체 테스트 코드를 JUnit 5로 마이그레이션 완료
 
-      - title: 테스트 수행 최적화 작업
-        sub_title: 2022.10 ~ 2022.11, 2023.05 ~ 2023.06
-        description: | # this will include new lines to allow paragraphs
-          - 서비스에 존재하는 모든 테스트 코드를 Junit5로 마이그레이션 진행
-          - 테스트 코드 수행 시간 지연 원인을 분석해 테스트 수행 시간 개선 (`4분 54초에서 2분 07초로 개선`)
-
-      - title: Jenkin CI 빌드 구성 개선
-        sub_title: 2022.10 ~ 2022.11
-        description: | # this will include new lines to allow paragraphs
-          - Jenkins CI를 Docker CI로 전환
-          - Pipeline -> Multi-Branch Pipeline 전환
-
-      - title: 업무 자동화
-        sub_title: 2022.09 ~ 2022.10
-        description: | # this will include new lines to allow paragraphs
-          - Dooray! Hook API를 활용한 증적자료를 남기는 업무 자동화
-          - 개발자의 개발 생산성 증가
-
-      - title: Nginx를 이용한 서비스 개선
-        sub_title: 2022.06. ~ 2022.08
-        description: | # this will include new lines to allow paragraphs
-          기존 nginx를 개선하여 다음과 같은 문제들을 해결하였습니다.
-          - Reverse Proxy 설정을 통한 서비스 보안성 개선
-          - HTTP Method Blocking을 통한 어뷰징 방지
-          - access_log 분리를 통한 로그 관리 개선
-
-      - title: 사내 오픈소스 starter 개발
-        sub_title: 2022.04. ~ 2022.07
-        description: | # this will include new lines to allow paragraphs
-          - 외부 시스템에 대한 통신 검증을 하는 사내 오픈소스 Condition Checker starter 개발
-          - starter 개발 이전 라이브러리 추가 개선 작업 수행
-          - Autoconfiguration을 이용한 사내 오픈소스 starter library 개발
-          - 기존 라이브러리를 starter로 변경하여 사용성 개선
+      - title: 사내 오픈소스 starter library 개발
+        sub_title: 2022.04. ~ 2022.07, 2024.10
+        description: |
+          - 사내 오픈소스로 외부 시스템과의 통신 검증 기능 개발
+          - MongoDB, Redis 등 다양한 외부 서버 연동 지원
+          - JDK 8, JDK 11, JDK 21 버전 호환성 제공
+          - Autoconfiguration을 활용한 사내 오픈소스 Starter 라이브러리 개발
 
       - title: Ucube 시스템 개발
         sub_title: 2021.01. ~ 2022.02
-        description: | # this will include new lines to allow paragraphs
-          - 사내 시스템 DA#을 이용한 ERD 설계
-          - Sequence Diagram 및 API 설계 진행
-          - Spring Boot, Java, JPA 및 QueryDSL를 활용한 서비스 개발
+        description: |
+          - 모바일 단말 판매로직 개발 
+          - Monolith Architecture에서 Microservice Architecture 전환 경험 
+          - 사용 기술: Spring Boot, Java 11, JPA, QueryDSL
+
 ## Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
