@@ -27,7 +27,7 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.png
+about_profile_image: images/profile2.jpeg
 about_content: | # this will include new lines to allow paragraphs
     안녕하세요. 백엔드 개발자로 일하고 있는 박세환입니다.<br>
     신기술과 최신 트렌드에 관심이 많으며, 이를 팀원들과 공유하고 함께 성장하는 것을 좋아합니다.<br>
@@ -68,7 +68,7 @@ content:
           <br>
           
           <strong>신규 서비스 개발<strong>
-          - Notification Hub (2024.02 ~ 2024.12): Email,SMS,RCS,KTB,Push 통합 서비스 개발
+          - Notification Hub (2024.02 ~ 2024.12): Email, SMS, RCS, KTB, Push 통합 서비스 개발
           - 친구톡 Upgrade (2025.01 ~): 카카오 친구톡 Upgrade CBT 개발
 
       - title: LG CNS
