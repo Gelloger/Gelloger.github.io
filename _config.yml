@@ -29,12 +29,14 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile2.png
 about_content: | # this will include new lines to allow paragraphs
-    5년차 Java & Spring Boot 백엔드 개발자로 일하고 있는 박세환입니다.<br>
-    쿠팡, 무신사, 배달의민족과 같은 대형 고객사가 사용하고 **월 평균 2~3억건의 발송을 처리**하는 Email 서비스에서 개발/배포/운영하였습니다.
-    2024년부터는 신규 서비스(Notification Hub, 친구톡 Upgrade) 개발에 참여하여 설계 및 개발을 진행했으며, 프로젝트의 시작부터 서비스 출시까지 전 과정을 경험했습니다.
+    5년차 Java & Spring Boot 백엔드 개발자로 일하고 있는 박세환입니다.
+  
+    쿠팡, 무신사, 배달의민족과 같은 대형 고객사가 사용하고 **월 평균 2~3억건의 발송을 처리**하는 Email 서비스에서 개발/배포/운영하고 있습니다.
+    신규 서비스 Notification Hub, 친구톡 Upgrade 설계 및 개발에 참여하여 프로젝트의 시작부터 서비스 출시까지 전 과정을 경험했습니다.
   
     서비스 내 레거시 코드를 리팩토링하여 가독성 높은 코드를 작성하는 것과 팀 전체의 생산성을 높이는 것에 관심이 많습니다. 
-    이를 위해 신규 입사자 개발 가이드를 작성하고, PR 템플릿을 도입했으며, 모의 장애 훈련을 도입하고, 서비스 장애 히스토리를 문서화하여 공유하는 등 팀 내 개발 문화를 발전시켰습니다.
+    이를 위해 신규 입사자 개발 가이드를 작성하고 PR 템플릿을 도입했으며 서비스 장애 히스토리를 문서화하여 공유하는 등 팀 내 개발 문화를 발전시켰습니다.
+  
   
     <strong>기술 스택<strong>
       - 프레임워크 - <mark>Spring Boot 2/3</mark>
@@ -57,16 +59,13 @@ content:
         caption: 2022.02 ~ 현재
         description: | # this will include new lines to allow paragraphs    
           <strong>주요 업무<strong>
-          - API 설계 및 개발
+          - Email API 설계 및 개발
           - 시스템 구조 개선 작업 수행(Legacy Code Refactoring, Re-architecture 등)
           - 표준화 수행(RFC 적용): RFC 7208, RFC 6376, RFC 7489, RFC 5322
           - 발송 성능 개선
           - 서비스 운영 및 관리, 모니터링
-          <br>
-          
-          <strong>신규 서비스 개발<strong>
-          - Notification Hub (2024.02 ~ 2024.12): Email, SMS, RCS, KTB, Push 통합 서비스 개발
-          - 친구톡 Upgrade (2025.01 ~): 카카오 친구톡 Upgrade CBT 개발
+          - **Notification Hub (2024.02 ~ 2024.12)**: Email, SMS, RCS, KTB, Push 통합 서비스 개발
+          - **친구톡 Upgrade (2025.01 ~)**: 카카오 친구톡 Upgrade CBT 개발
 
       - title: LG CNS
         link: https://www.lgcns.com/
@@ -85,11 +84,10 @@ content:
         description: | # this will include new lines to allow paragraphs
           - 신규 서비스 Notification Hub 설계 및 개발 참여 
           - 첨부파일, 상세설정 API 설계 및 개발
+          - API 예외 응답 다국어 처리 구조 설계 및 개발
           - Email 발송 API 개발 
-          - 예외 응답 다국어 처리 및 내부 예외 처리 설계 및 개발
           - 미터링 개발
-          - 사용 기술: Hexagonal architecture, DDD, OpenAPI specification3, Kotlin, RabbitMQ, MongoDB, MySQL, Github 
-
+          - 사용 기술: <mark>Hexagonal architecture</mark>, <mark>DDD</mark>, <mark>OpenAPI specification3</mark>, <mark>Kotlin, <mark>RabbitMQ</mark>, <mark>MongoDB</mark>, <mark>MySQL</mark>, <mark>Github</mark>
       - title: Email 발송 로직 리팩토링
         sub_title: 2023.11 ~ 2024.01
         description: | # this will include new lines to allow paragraphs
@@ -109,7 +107,7 @@ content:
       - title: 안정화 TF
         sub_title: 2023.08 ~ 2023.09
         description: | 
-          팀 내에서 발생하는 장애 원인을 분석하고 개선하는 업무를 수행
+          팀 내에서 발생하는 장애 발생 원인을 분석하고 개선하는 업무를 수행
           - Watchdog 및 Grafana 모니터링 알람 개선
           - MDC 및 logback을 활용한 로깅 고도화
           - SonarQube 도입
@@ -141,7 +139,7 @@ content:
         description: |
           - 모바일 단말 판매로직 개발 
           - Monolith Architecture에서 Microservice Architecture 전환 경험 
-          - 사용 기술: Spring Boot, Java 11, JPA, QueryDSL
+          - 사용 기술: <mark>Spring Boot</mark>, <mark>Java 11</mark>, <mark>JPA</mark>, <mark>QueryDSL</mark>
 
 ## Footer
 footer_show_references: true
