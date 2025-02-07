@@ -42,7 +42,7 @@ about_content: | # this will include new lines to allow paragraphs
       - 웹서버 - <mark>Nginx</mark>
       - DevOps - <mark>Jenkins</mark>, <mark>SonarQube</mark>, <mark>Grafana</mark>
       - DB(Hibernate) - <mark>MySQL</mark>, <mark>MongoDB</mark>, <mark>MyBatis</mark>, <mark>JPA</mark>, <mark>QueryDSL</mark>
-      - 기타 - <mark>OpenAPI Specification3</mark>, <mark>Clean Architecture</mark>, <mark>GitHub</mark>
+      - 기타 - <mark>OpenAPI Specification3</mark>, <mark>Hexagonal Architecture</mark>, <mark>GitHub</mark>
 
 content:
   - title: Company
@@ -94,7 +94,7 @@ content:
           - Email 발송 API 개발 
           - 예외 응답 다국어 처리 및 내부 예외 처리 설계 및 개발
           - 미터링 개발
-          - 사용 기술: Clean architecture, DDD, OpenAPI specification3, Kotlin, RabbitMQ, MongoDB, MySQL, Github 
+          - 사용 기술: Hexagonal architecture, DDD, OpenAPI specification3, Kotlin, RabbitMQ, MongoDB, MySQL, Github 
 
       - title: Email 발송 로직 리팩토링
         sub_title: 2023.11 ~ 2024.01
